@@ -6,21 +6,29 @@ export const Navbarlinks= [
           
      },
      {
-          title:"About",
+          title:"Discover",
           url:"/about",
           cName:"nav-links",
 
      },
      {
-          title:"Service",
+          title:"Special Deals",
           url:"/service",
           cName:"nav-links",
 
      },
      {
-          title:"Contact",
+          title:"About us",
+          url:"/service",
+          cName:"nav-links",
+
+     },
+     {
+          title:"Register",
           url:"/contact",
           cName:"nav-links",
      },
      
 ]
+export const heading = "The right destination for you and your love ones"
+export const subHeading = "creative taglinehave capability of capturing the attention of potential customer"

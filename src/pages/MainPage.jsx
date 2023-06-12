@@ -1,13 +1,14 @@
-import React from 'react'
+import React, { Component } from 'react'
+import MainImages from '../components/main-imgs/MainImages'
 
 const MainPage = () => {
 
   
   return (
-    <div>
-      <p>home</p>
+    <>
+      <MainImages/>
      
-    </div>
+    </>
   )
 }
 
