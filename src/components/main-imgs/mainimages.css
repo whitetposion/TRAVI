@@ -8,7 +8,7 @@
      content: '';
      position: absolute;
      width: 100%;
-     height: 80%;
+     height: 100%;
      border: 1px solid #000;
      background: url("src/assets/image1.jpg") no-repeat center center/cover;
      border-radius: 10px;
@@ -43,4 +43,130 @@
 .btn-search:hover{
      background-color: rgb(113,113,113);
      border: 2px solid rgba(113,113,113);
+}
+.trip-bx {
+     position: relative;
+     width: 95%;
+     height: auto;
+     margin: auto;
+     /*border: 1px solid #000;*/
+}
+.search-bx {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 60%;
+     height: 60px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background: #fff;
+     border-radius: 5px;
+     box-shadow: 0px 10px 25px rgb(114,114,114);
+     z-index: 1;
+     padding: 10px 20px;
+}
+.card {
+     width: 200px;
+     height: 100%;
+     /*border: 1px solid #000;*/
+}
+.card h4 {
+     font-size: 15px;
+     margin: 0;
+     font-weight: 700;
+}
+.card h4 i {
+     position: absolute;
+     font-size: 13px;
+     margin: 2px 0px 0px 5px;
+     transition: 0.3s linear;
+}
+.card input {
+     margin-top: 3px;
+     padding: 5px 0px;
+     border: none;
+     outline: none;
+     font-size: 13px;
+}
+.search-bx input[type="button"] {
+     background: #000;
+     color: #fff;
+     border: none;
+     outline: none;
+     padding: 10px 20px;
+     border-radius: 20px;
+     transition: 0.3s linear;
+     cursor: pointer;
+}
+.search-bx input[type="button"]:hover {
+     background-color: gray;
+}
+
+.trip-bx .travel-bx {
+     position: relative;
+     width: 100%;
+     height:auto;
+     margin: auto;
+     top: 40px;
+     /*background: #000;*/
+     border: 1px solid #fff;
+     border-radius: 10px;
+     padding-bottom: 20px;
+     box-shadow: 0px 20px 25px -10px rgb(165, 165, 165);
+}
+.trip-bx .travel-bx::before {
+     content:'';
+     position: absolute;
+     width: 100%;
+     height:100%;
+     /*background: #000;*/
+     border-radius: 10px;
+     background: rgb(241,241,241, .7);
+     backdrop-filter: blur(5px);
+     z-index: -1;
+}
+.trip-bx .travel-bx h4 {
+     margin: 0;
+     padding: 60px 0px 15px 1.7%;
+}
+.travel-bx .cards {
+     width: 95%;
+     height: auto;
+     margin: 0 auto;
+     border: 1px solid #000;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+.travel-bx .cards .card {
+     width: 220px;
+     height: 180px;
+     border:1px solid #000
+}
+.travel-bx .cards .card h3 {
+     margin: 0px 0px 10px 0px;
+     display: flex;
+     align-items: center;
+     font-size: 16px;
+     font-weight: 600;
+}
+.travel-bx .cards .card h3 img {
+     width: 20px;
+     height: 20px;
+     margin-left:5px ;
+}
+.travel-bx .cards .card img {
+     width: 100%;
+     height: 50%;  
+}
+.travel-bx .cards .card .btn-explore {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     border: 1px solid #000;
+}
+.travel-bx .cards .card .btn-explore a {
+     text-decoration: none;
+     background: #000;
 }
