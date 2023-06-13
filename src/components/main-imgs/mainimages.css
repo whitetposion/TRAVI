@@ -2,14 +2,14 @@
      position: relative;
      width: 100%;
      height: 80%;
-     border: 1px solid #000;
+     /* border: 1px solid #000;  */
 }
 .content::before {
      content: '';
      position: absolute;
      width: 100%;
-     height: 100%;
-     border: 1px solid #000;
+     height: 93%;
+     /* border: 1px solid #000; */
      background: url("src/assets/image1.jpg") no-repeat center center/cover;
      border-radius: 10px;
      z-index: -1;
@@ -108,9 +108,9 @@
      width: 100%;
      height:auto;
      margin: auto;
-     top: 40px;
+     top: 30px;
      /*background: #000;*/
-     border: 1px solid #fff;
+     /* border: 1px solid #fff; */
      border-radius: 10px;
      padding-bottom: 20px;
      box-shadow: 0px 20px 25px -10px rgb(165, 165, 165);
@@ -134,7 +134,7 @@
      width: 95%;
      height: auto;
      margin: 0 auto;
-     border: 1px solid #000;
+     /* border: 1px solid #000; */
      display: flex;
      align-items: center;
      justify-content: space-between;
@@ -142,7 +142,7 @@
 .travel-bx .cards .card {
      width: 220px;
      height: 180px;
-     border:1px solid #000
+     /* border:1px solid #000 */
 }
 .travel-bx .cards .card h3 {
      margin: 0px 0px 10px 0px;
@@ -164,9 +164,27 @@
      display: flex;
      align-items: center;
      justify-content: space-between;
-     border: 1px solid #000;
+     /* border: 1px solid #000; */
 }
 .travel-bx .cards .card .btn-explore a {
      text-decoration: none;
      background: #000;
+     color: #fff;
+     border-radius: 20px;
+     padding: 6px 20px;
+     font-size: 11px;
+     transition: .3s linear;
+}
+.travel-bx .cards .card .btn-explore a:hover {
+     background: gray;
+}
+.travel-bx .cards .card .btn-explore h5 {
+     font-size: 11px;
+     font-weight: 500;
+     margin: 0;
+     line-height: 15px;
+}
+.travel-bx .cards .card .btn-explore h5 span {
+     font-weight: 700;
+     font-size: 13px;
 }
