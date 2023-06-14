@@ -56,7 +56,6 @@ const MainImages = () => {
                   <h5>Mumbai Central <br/> <span>$00.00</span></h5>
                 </div>
               </div>
-              <div className="card"></div>
             </div>
           </div>
          </div>

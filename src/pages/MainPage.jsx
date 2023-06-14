@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import MainImages from '../components/main-imgs/MainImages'
+import Offers from '../components/offers/Offers'
 
 const MainPage = () => {
 
@@ -7,7 +8,7 @@ const MainPage = () => {
   return (
     <>
       <MainImages/>
-    
+      <Offers/>
      
     </>
   )
