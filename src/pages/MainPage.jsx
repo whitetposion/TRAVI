@@ -1,14 +1,16 @@
-import React, { Component } from 'react'
+import React from 'react'
 import MainImages from '../components/main-imgs/MainImages'
 import Offers from '../components/offers/Offers'
+import Comps2 from '../components/comps2/Comps2'
 
 const MainPage = () => {
 
   
   return (
     <>
-      <MainImages/>
+      <MainImages />
       <Offers/>
+      <Comps2/>
      
     </>
   )

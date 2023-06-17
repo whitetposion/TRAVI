@@ -1,0 +1,57 @@
+.destination {
+     width:60%;
+     height: auto;
+     border: 1px solid black;
+     margin: auto;
+     margin-top: 70px;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+}
+.destination .img-bx , .des-bx {
+     position: relative;
+     width: 50%;
+     height: auto;
+     border: 1px solid #000;
+}
+.destination .des-bx h4 {
+     margin: 0;
+     font-size: 20px;
+     color: #000;
+     line-height: 10px;
+     letter-spacing: 1px ;
+}
+.destination .des-bx p {
+     font-size: 12px;
+}
+.destination .des-bx li {
+     list-style-type: none;
+     padding: 0px 0px 8px 0px;
+     font-size: 12px;
+     font-weight: 500;
+}
+.destination .des-bx h6 {
+     width: 250px;
+     font-size: 12px;
+     font-weight: 500;
+     margin: 20px 0px;
+}
+.destination .des-bx button {
+     font-size: 12px;
+     padding: 8px 15px;
+     border-radius: 20px;
+     background: #000;
+     color: #fff;
+     border: 2px solid #000;
+     cursor: pointer;
+     transition: .3s linear;
+}
+.destination .des-bx button:hover {
+     background: gray;
+     border: 2px solid gray;
+}
+.destination .img-bx img {
+     width: 100%;
+     height: 420px;
+     border-radius: 5px;
+}

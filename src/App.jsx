@@ -6,7 +6,6 @@ import AboutPage from './pages/AboutPage';
 import Navbar from './common/Navbar/Navbar.jsx';
 import ServicePage from './pages/ServicePage';
 function App() {
-  
   return (
     <div className = "header">
     <Router>

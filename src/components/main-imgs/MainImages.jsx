@@ -3,11 +3,11 @@ import {heading, subHeading} from './../../../public/data'
 import { AiFillCaretDown} from 'react-icons/Ai'
 import "./mainimages.css"
 
-const MainImages = () => {
+const MainImages = ({fetchAPI, images}) => {
   
   return (
     <>
-      <div className="content">
+      <div  className="content" onMouseOver={fetchAPI}>
         <div className='content-box'>
           <h1>{heading}</h1>
           <p>{subHeading}</p>
