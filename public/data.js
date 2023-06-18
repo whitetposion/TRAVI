@@ -25,7 +25,7 @@ export const Navbarlinks= [
      },
      {
           title:"Register",
-          url:"/contact",
+          url:"/sign-up",
           cName:"nav-links",
      },
      

@@ -5,6 +5,7 @@ import MainPage from './pages/MainPage'
 import AboutPage from './pages/AboutPage';
 import Navbar from './common/Navbar/Navbar.jsx';
 import ServicePage from './pages/ServicePage';
+import PersonPage from './pages/PersonPage';
 function App() {
   return (
     <div className = "header">
@@ -14,6 +15,7 @@ function App() {
         <Route path = "/" Component = {MainPage}/>
         <Route path="/about" Component={AboutPage}/>
         <Route path ="/service" Component={ServicePage}/>
+        <Route path ="/sign-up" Component={PersonPage}/>
       </Routes>
     </Router>
     </div>
