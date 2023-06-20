@@ -34,13 +34,74 @@ const Offers = () => {
           </div>
           <div className="card">
                <h3>Lotus-Delhi</h3>
+               <div className='img-text'>
+                    <img src= "src/assets/image1.jpg"/>
+                    <h4>inCLUDE adfgh asdf sdfg asdfg sdf sdfgjejdj</h4>
+               </div>
+               <div className='context-bx'>
+                    <div className="price">
+                         <div className="heart-chat">
+                              <i><AiFillHeart/><span>5432</span></i>
+                              <i><BsChatFill/><span>5432</span></i>
+                         </div>
+                         <div className="info-price">
+                              <a href = "">More info</a>
+                              <h4>$00.00</h4>
+                         </div>
+                    </div>
+                    <div className="days">
+                         5 days <br/> INDIA
+                    </div>
+                    
+               </div>
           </div>
           <div className="card">
                <h3>Lotus-Delhi</h3>
+               <div className='img-text'>
+                    <img src= "src/assets/image1.jpg"/>
+                    <h4>inCLUDE adfgh asdf sdfg asdfg sdf sdfgjejdj</h4>
+               </div>
+               <div className='context-bx'>
+                    <div className="price">
+                         <div className="heart-chat">
+                              <i><AiFillHeart/><span>5432</span></i>
+                              <i><BsChatFill/><span>5432</span></i>
+                         </div>
+                         <div className="info-price">
+                              <a href = "">More info</a>
+                              <h4>$00.00</h4>
+                         </div>
+                    </div>
+                    <div className="days">
+                         5 days <br/> INDIA
+                    </div>
+                    
+               </div>
           </div>
           <div className="card">
                <h3>Lotus-Delhi</h3>
+               <div className='img-text'>
+                    <img src= "src/assets/image1.jpg"/>
+                    <h4>inCLUDE adfgh asdf sdfg asdfg sdf sdfgjejdj</h4>
+               </div>
+               <div className='context-bx'>
+                    <div className="price">
+                         <div className="heart-chat">
+                              <i><AiFillHeart/><span>5432</span></i>
+                              <i><BsChatFill/><span>5432</span></i>
+                         </div>
+                         <div className="info-price">
+                              <a href = "">More info</a>
+                              <h4>$00.00</h4>
+                         </div>
+                    </div>
+                    <div className="days">
+                         5 days <br/> INDIA
+                    </div>
+                    
+               </div>
           </div>
+          
       </div>
     </div>
   )

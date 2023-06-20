@@ -1,0 +1,37 @@
+@media screen and (max-width:1391px)  {
+     .offers {
+      width: 85%;
+     }     
+ }
+@media screen and (max-width:1316px)  {
+     .offers {
+      width: 90%;
+     }     
+}
+@media screen and (max-width:1250px)  {
+     .offers {
+      width: 95%;
+     }
+     .header {
+          width : 85%;
+     }
+     .destination {
+          width: 70%;
+     }     
+}
+@media screen and (max-width:1175px)  {
+     .header {
+          width : 90%;
+     }
+     .travel-bx .card {
+          width: 97%;
+     }
+     .travel-bx .cards .card {
+          width: 194px;
+      }     
+}
+@media screen and (max-width:1120px)  {
+     .header {
+          width : 95%;
+     }     
+}

@@ -9,10 +9,8 @@ body {
      font-family: 'poppins', sans-serif;
 }
 
-.header {
-     width: 80%;
-     height: 95vh;
-     /* border: 1px solid #000; */
-     margin: auto;
-     align-items: center;
+@media screen and (max-width:1391px)  {
+    .offers {
+     width: 85%;
+    }     
 }
