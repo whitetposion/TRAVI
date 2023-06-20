@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import "./Navbar.css"
 import {SiYourtraveldottv} from 'react-icons/si'
 import {FaBars} from 'react-icons/fa'
-import {ImCross} from 'react-icons/Im'
 import { Navbarlinks } from '../../../public/data'
 import {Link} from 'react-router-dom'
 const Navbar = () => {
@@ -20,7 +19,7 @@ const Navbar = () => {
               Travi
           </h1>
           <div className= " menu-icons" onClick={handleClick}>
-            <i>{comm? <FaBars/>:<ImCross/>}</i>
+            <i>{comm? <FaBars/>: null}</i>
           </div>
           <div className= {comm ? "nav-items active": "nav-items" }>
             {Navbarlinks.map((item,index) =>{

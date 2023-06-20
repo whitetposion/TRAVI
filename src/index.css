@@ -28,10 +28,44 @@
      }
      .travel-bx .cards .card {
           width: 194px;
-      }     
+     } 
+     .destination {
+          width: 75%;
+     }      
 }
 @media screen and (max-width:1120px)  {
      .header {
-          width : 95%;
+          width : 90%;
+     }
+     .search-bx {
+          width: 65%;
+     }
+     .offers {
+          width: 100%;
      }     
+}
+@media screen and (max-width:1000px)  {
+     .header {
+          width : 95%;
+     }
+     .travel-bx .cards {
+          overflow: auto;
+     } 
+     .travel-bx .cards .card {
+          min-width: 194px;
+          margin-right: 10px;
+     }
+}
+@media screen and (max-width:920px) {
+     .search-bx {
+          width: 80%;
+     }
+     .search-bx .card {
+          max-width: 143px;
+          margin-right: 10px;
+     }
+     .destination {
+          width: 80%;
+     }  
+     
 }
