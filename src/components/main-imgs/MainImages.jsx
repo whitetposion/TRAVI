@@ -1,9 +1,9 @@
 import React from 'react';
 import {heading, subHeading} from './../../../public/data'
-import { AiFillCaretDown} from 'react-icons/Ai'
+import { AiFillCaretDown} from 'react-icons/ai'
 import "./mainimages.css"
 
-const MainImages = ({fetchAPI, images}) => {
+const MainImages = () => {
   
   return (
     <>

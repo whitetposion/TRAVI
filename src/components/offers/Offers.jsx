@@ -1,6 +1,6 @@
 import React from 'react'
-import {AiFillHeart} from 'react-icons/Ai'
-import {BsChatFill} from 'react-icons/Bs'
+import {AiFillHeart} from 'react-icons/ai'
+import {BsChatFill} from 'react-icons/bs'
 import './offers.css'
 
 const Offers = () => {
