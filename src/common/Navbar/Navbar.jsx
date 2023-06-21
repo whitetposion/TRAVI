@@ -10,7 +10,6 @@ const Navbar = () => {
     useComm(!comm);
   }
   return (
-    <div className='header'>
     
       <div className= "container ">
           <h1 className= "logo">
@@ -34,7 +33,7 @@ const Navbar = () => {
           </div>
           
       </div>
-    </div>
+    
   )
 }
 

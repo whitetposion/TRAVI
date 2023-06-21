@@ -7,7 +7,7 @@ import Navbar from './common/Navbar/Navbar.jsx';
 import ServicePage from './pages/ServicePage';
 function App() {
   return (
-  
+    <div className='header'>
     <Router>
       <Navbar/>
       <Routes>
@@ -16,6 +16,7 @@ function App() {
         <Route path ="/service" Component={ServicePage}/>
       </Routes>
     </Router>
+    </div>
   
     
   )
