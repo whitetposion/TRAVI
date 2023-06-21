@@ -9,6 +9,7 @@ const MainPage = () => {
   
   return (
     <>
+    
       <MainImages />
       <Offers/>
       <Comps2/>

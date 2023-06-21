@@ -1,13 +1,13 @@
 import React from 'react';
-import {heading, subHeading} from './../../../public/data'
-import { AiFillCaretDown} from 'react-icons/Ai'
+import {heading, subHeading} from '../../data'
+import { AiFillCaretDown} from 'react-icons/ai'
 import "./mainimages.css"
 
-const MainImages = ({fetchAPI, images}) => {
+const MainImages = () => {
   
   return (
     <>
-      <div  className="content" onMouseOver={fetchAPI}>
+      <div  className="content" >
         <div className='content-box'>
           <h1>{heading}</h1>
           <p>{subHeading}</p>

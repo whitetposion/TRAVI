@@ -8,9 +8,3 @@
 body {
      font-family: 'poppins', sans-serif;
 }
-
-@media screen and (max-width:1391px)  {
-    .offers {
-     width: 85%;
-    }     
-}

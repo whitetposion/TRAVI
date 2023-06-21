@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import "./Navbar.css"
 import {SiYourtraveldottv} from 'react-icons/si'
 import {FaBars} from 'react-icons/fa'
-import { Navbarlinks } from '../../../public/data'
+import { Navbarlinks } from './../../data'
 import {Link} from 'react-router-dom'
 const Navbar = () => {
   const [comm, useComm] = useState(false);
@@ -10,7 +10,8 @@ const Navbar = () => {
     useComm(!comm);
   }
   return (
-    <>
+    <div className='header'>
+    
       <div className= "container ">
           <h1 className= "logo">
               <i className = "logo-img">
@@ -33,7 +34,7 @@ const Navbar = () => {
           </div>
           
       </div>
-    </>
+    </div>
   )
 }
 

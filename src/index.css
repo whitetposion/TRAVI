@@ -120,6 +120,11 @@
           margin-top: 30px;
      }
 }
+@media screen and (max-width:500px){
+     .offers .cards {
+          justify-content: center;
+     }
+}
 @media screen and (max-width:413px){
      .header .content .content-bx {
           width: 85%;
