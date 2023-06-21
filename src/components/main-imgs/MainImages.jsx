@@ -1,5 +1,5 @@
 import React from 'react';
-import {heading, subHeading} from '../../data'
+import {heading, subHeading} from './../../data'
 import { AiFillCaretDown} from 'react-icons/ai'
 import "./mainimages.css"
 
