@@ -22,6 +22,7 @@
 @media screen and (max-width:1175px)  {
      .header {
           width : 90%;
+          height: fit-content ;
      }
      .travel-bx .card {
           width: 97%;
@@ -68,4 +69,83 @@
           width: 80%;
      }  
      
+}
+@media screen and (max-width:750px) {
+     .search-bx {
+          width: 94%;
+     }
+     .offers {
+          width: 80%;
+     }
+}
+@media screen and (max-width:720px) {
+     .header .nav-items{
+          position: absolute;
+          width: 130px;
+          height: auto;
+          flex-direction: column;
+          background: #fff;
+          border-radius: 5px;
+          box-shadow: 0px 0px 10px gray;
+          justify-content: center;
+          top: 20px;
+          z-index: 99999999999;
+          padding: 10px 20px;
+          align-items: center;
+          
+     }
+     .header .nav-items li  {
+          padding: 5px ;
+          text-align: center;
+          
+     }
+}
+@media screen and (max-width:620px){
+     .search-bx .card {
+          min-width: 100px;
+     }
+     .offers {
+          width: 90%;
+     }
+     .destination {
+          width: 100%;
+          flex-direction: column-reverse;
+     }
+     .destination .des-bx .img-bx {
+          position: relative;
+          width: 55%;
+          height: auto;
+     }
+     .destination .des-bx {
+          margin-top: 30px;
+     }
+}
+@media screen and (max-width:413px){
+     .header .content .content-bx {
+          width: 85%;
+     }
+     .content .content-bx h1 {
+          font-size: 22px;
+          width: 300px;
+     }
+     .header .content .content-bx p {
+          width: 300px;
+          font-size: 12px;
+     }
+     .search-bx {
+          width: 89%;
+     }
+     .search-bx .card {
+          width:110px;
+     }
+     .card input {
+          font-size: 13px;
+          width: 100%;
+     }
+     .offers .cards {
+          justify-content: center;
+     } 
+     .destination .img-bx {
+          width: 90%;
+     }
 }
