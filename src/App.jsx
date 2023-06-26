@@ -7,16 +7,17 @@ import Navbar from './common/Navbar/Navbar.jsx';
 import ServicePage from './pages/ServicePage';
 function App() {
   return (
-    <div className='header'>
+    
     <Router>
-      <Navbar/>
+      <Navbar />
+      
       <Routes>
         <Route path = "/" Component = {MainPage}/>
         <Route path="/about" Component={AboutPage}/>
         <Route path ="/service" Component={ServicePage}/>
       </Routes>
     </Router>
-    </div>
+    
   
     
   )
