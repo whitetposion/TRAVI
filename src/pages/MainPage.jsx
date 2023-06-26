@@ -8,14 +8,13 @@ const MainPage = () => {
 
   
   return (
-    <>
-    
-      <MainImages />
+    <div className='header'>
+      <MainImages/>
       <Offers/>
       <Comps2/>
       <Footer/>
      
-    </>
+    </div>
   )
 }
 
