@@ -32,3 +32,5 @@ export const Navbarlinks= [
 ]
 export const heading = "The right destination for you and your love ones"
 export const subHeading = "creative taglinehave capability of capturing the attention of potential customer"
+
+
