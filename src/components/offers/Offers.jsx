@@ -12,7 +12,7 @@ const Offers = () => {
           <div className="card">
                <h3>Lotus-Delhi</h3>
                <div className='img-text'>
-                    <img src= "images1.jpg"/>
+                    <img src= "image1.jpg"/>
                     <h4>inCLUDE adfgh asdf sdfg asdfg sdf sdfgjejdj</h4>
                </div>
                <div className='context-bx'>
