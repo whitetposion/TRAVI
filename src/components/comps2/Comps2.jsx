@@ -18,7 +18,7 @@ const Comps2 = () => {
           <button>more info</button>
      </div>
       <div className = "img-bx">
-          <img src = "src\assets\image1.jpg" alt =""/>
+          <img src = "image1.jpg" alt =""/>
           <div className="trend-msg">
             <div className="container">
               <h4>INDIA</h4>

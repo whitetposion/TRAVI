@@ -34,7 +34,7 @@ const MainImages = () => {
             <div className='cards'>
               <div className="card">
                 <h3>INDIA <img src="" alt=""/></h3>
-                <img src="src/assets/image1.jpg" alt=""/>
+                <img src="image1.jpg" alt=""/>
                 <div className="btn-explore">
                   <a href = "">read Now</a>
                   <h5>Mumbai Central <br/> <span>$00.00</span></h5>
@@ -42,7 +42,7 @@ const MainImages = () => {
               </div>
               <div className="card">
                 <h3>INDIA <img src="" alt=""/></h3>
-                <img src="src/assets/image1.jpg" alt=""/>
+                <img src="image1.jpg" alt=""/>
                 <div className="btn-explore">
                   <a href = "">read Now</a>
                   <h5>Mumbai Central <br/> <span>$00.00</span></h5>
@@ -50,7 +50,7 @@ const MainImages = () => {
               </div>
               <div className="card">
               <h3>INDIA <img src="" alt=""/></h3>
-                <img src="src/assets/image1.jpg" alt=""/>
+                <img src="image1.jpg" alt=""/>
                 <div className="btn-explore">
                   <a href = "">read Now</a>
                   <h5>Mumbai Central <br/> <span>$00.00</span></h5>
@@ -58,7 +58,7 @@ const MainImages = () => {
               </div>
               <div className="card">
               <h3>INDIA <img src="" alt=""/></h3>
-                <img src="src/assets/image1.jpg" alt=""/>
+                <img src="image1.jpg" alt=""/>
                 <div className="btn-explore">
                   <a href = "">read Now</a>
                   <h5>Mumbai Central <br/> <span>$00.00</span></h5>

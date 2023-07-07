@@ -12,7 +12,7 @@ const Offers = () => {
           <div className="card">
                <h3>Lotus-Delhi</h3>
                <div className='img-text'>
-                    <img src= "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.bucketlistly.blog%2Fposts%2Fbest-free-travel-images&psig=AOvVaw0HEI1ERjtSqL0fUpGs_mIO&ust=1687587249682000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJj8gcbe2P8CFQAAAAAdAAAAABAR"/>
+                    <img src= "images1.jpg"/>
                     <h4>inCLUDE adfgh asdf sdfg asdfg sdf sdfgjejdj</h4>
                </div>
                <div className='context-bx'>
@@ -35,7 +35,7 @@ const Offers = () => {
           <div className="card">
                <h3>Lotus-Delhi</h3>
                <div className='img-text'>
-                    <img src= "src/assets/image1.jpg"/>
+                    <img src= "image1.jpg"/>
                     <h4>inCLUDE adfgh asdf sdfg asdfg sdf sdfgjejdj</h4>
                </div>
                <div className='context-bx'>
