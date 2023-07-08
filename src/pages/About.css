@@ -1,0 +1,23 @@
+.about-container {
+     background-color: white;
+     color: black;
+     padding: 20px;
+}
+   
+h2 {
+     color: blue;
+   }
+   
+h3 {
+     color: green;
+}
+   
+ul {
+     list-style-type: disc;
+     margin-left: 20px;
+}
+   
+   li {
+     margin-bottom: 10px;
+   }
+   
